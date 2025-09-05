@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newses",
+  "info": {
+    "singularName": "news",
+    "pluralName": "newses",
+    "displayName": "News",
+    "description": ""
+  },
+  "options": {},
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "configurable": false
+    },
+    "content": {
+      "type": "richtext",
+      "required": true,
+      "configurable": false
+    },
+    "date": {
+      "type": "date",
+      "required": true,
+      "configurable": false
+    }
+  }
+}
