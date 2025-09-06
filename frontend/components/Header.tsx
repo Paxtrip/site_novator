@@ -1,4 +1,5 @@
 import React from 'react';
+import Search from './Search';
 
 const Header = () => {
   return (
@@ -7,11 +8,7 @@ const Header = () => {
         <div className="text-xl font-bold">
           Logo
         </div>
-        <input
-          type="text"
-          placeholder="Search..."
-          className="p-2 rounded text-black"
-        />
+        <Search />
         <button className="bg-red-500 p-2 rounded">
           Print
         </button>
