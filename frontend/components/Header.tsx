@@ -9,7 +9,7 @@ const Header = () => {
           Logo
         </div>
         <Search />
-        <button className="bg-red-500 p-2 rounded">
+        <button className="bg-red-500 p-2 rounded" onClick={() => window.print()}>
           Print
         </button>
       </div>

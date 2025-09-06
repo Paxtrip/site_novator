@@ -1,0 +1,14 @@
+@media print {
+  .sidebar,
+  .header,
+  .footer {
+    display: none;
+  }
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+  .content {
+    margin: 0;
+  }
+}
